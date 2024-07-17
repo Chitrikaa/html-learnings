@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to My Portfolio</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #f0f0f0;
+			padding: 20px;
+			text-align: center;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #337ab7;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #23527c;
+		}
+		section {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+		}
+		img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+		}
+		.project {
+			margin-bottom: 20px;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.project img {
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+		}
+		.contact {
+			margin-top: 20px;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h1>About Me</h1>
+			<img src="https://picsum.photos/id/123/200/300" alt="My Profile Picture">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+		</section>
+		<section id="projects">
+			<h1>Projects</h1>
+			<div class="project">
+				<img src="https://picsum.photos/id/124/100/100" alt="Project 1">
+				<h2>Project 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			</div>
+			<div class="project">
+				<img src="https://picsum.photos/id/125/100/100" alt="Project 2">
+				<h2>Project 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			</div>
+			<div class="project">
+				<img src="https://picsum.photos/id/126/100/100" alt="Project 3">
+				<h2>Project 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			</div>
+		</section>
+		<section id="contact">
+			<h1>Contact</h1>
+			<div class="contact">
+				<p>Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></p>
+				<p>Phone: 123-456-7890</p>
+				<p>Social Media: <a href="https://twitter.com/yourhandle">Twitter</a>, <a href="https://github.com/yourhandle">GitHub</a></p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
