@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Form Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-builder">
+    <h1>Online Form Builder</h1>
+    <button id="add-textfield">Add Text Field</button>
+    <button id="add-checkbox">Add Checkbox</button>
+    <button id="add-radio">Add Radio Button</button>
+    <button id="clear-form">Clear Form</button>
+    <div class="form-controls">
+      <!-- Form elements will be added dynamically here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+#CSS
+body {
+  background-color: #f9f9f9;
+}
+
+.form-builder {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.form-controls {
+  margin-top: 20px;
+}
+
+.form-controls > * {
+  margin-bottom: 10px;
+}
